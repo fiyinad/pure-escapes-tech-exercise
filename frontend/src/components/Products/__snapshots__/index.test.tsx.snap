@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products Renders without errors in default state 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <ForwardRef(Modal)
+    aria-describedby="simple-modal-description"
+    aria-labelledby="simple-modal-title"
+    onClose={[Function]}
+    open={false}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      className="makeStyles-paper-2"
+    >
+      <WithStyles(ForwardRef(Typography))
+        gutterBottom={true}
+        variant="h3"
+      >
+        Shopping Cart
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Divider)) />
+      <WithStyles(ForwardRef(List)) />
+    </div>
+  </ForwardRef(Modal)>
+</div>
+`;
+
+exports[`Products Renders without errors in loading state 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(Skeleton))>
+     
+    <WithStyles(ForwardRef(List)) />
+  </WithStyles(ForwardRef(Skeleton))>
+  <ForwardRef(Modal)
+    aria-describedby="simple-modal-description"
+    aria-labelledby="simple-modal-title"
+    onClose={[Function]}
+    open={false}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      className="makeStyles-paper-2"
+    >
+      <WithStyles(ForwardRef(Typography))
+        gutterBottom={true}
+        variant="h3"
+      >
+        Shopping Cart
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Divider)) />
+      <WithStyles(ForwardRef(List)) />
+    </div>
+  </ForwardRef(Modal)>
+</div>
+`;
+
+exports[`Products Renders without errors with pre-loaded state 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(List))>
+    <Product
+      key="0"
+      onAdd={[Function]}
+      onRemove={[Function]}
+      product={
+        Object {
+          "cost": 186,
+          "customerPrice": 199,
+          "id": 1,
+          "name": "Soup",
+        }
+      }
+    />
+    <Product
+      key="1"
+      onAdd={[Function]}
+      onRemove={[Function]}
+      product={
+        Object {
+          "cost": 21,
+          "customerPrice": 87,
+          "id": 2,
+          "name": "Bread",
+        }
+      }
+    />
+    <Product
+      key="2"
+      onAdd={[Function]}
+      onRemove={[Function]}
+      product={
+        Object {
+          "cost": 234,
+          "customerPrice": 275,
+          "id": 3,
+          "name": "Cheese",
+        }
+      }
+    />
+    <Product
+      key="3"
+      onAdd={[Function]}
+      onRemove={[Function]}
+      product={
+        Object {
+          "cost": 61,
+          "customerPrice": 67,
+          "id": 4,
+          "name": "Milk",
+        }
+      }
+    />
+  </WithStyles(ForwardRef(List))>
+  <WithStyles(ForwardRef(Button))
+    onClick={[Function]}
+  >
+    Show
+     Cart
+  </WithStyles(ForwardRef(Button))>
+  <ForwardRef(Modal)
+    aria-describedby="simple-modal-description"
+    aria-labelledby="simple-modal-title"
+    onClose={[Function]}
+    open={false}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      className="makeStyles-paper-2"
+    >
+      <WithStyles(ForwardRef(Typography))
+        gutterBottom={true}
+        variant="h3"
+      >
+        Shopping Cart
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Divider)) />
+      <WithStyles(ForwardRef(List)) />
+    </div>
+  </ForwardRef(Modal)>
+</div>
+`;

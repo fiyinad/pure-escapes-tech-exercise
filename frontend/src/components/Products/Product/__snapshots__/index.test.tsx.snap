@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Renders without errors in default state 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItemText))>
+      <WithStyles(ForwardRef(Typography))
+        color="textPrimary"
+        variant="body1"
+      />
+    </WithStyles(ForwardRef(ListItemText))>
+    <WithStyles(ForwardRef(ListItemSecondaryAction))>
+      <WithStyles(ForwardRef(Button))
+        aria-label="add"
+        color="primary"
+        onClick={[Function]}
+        size="small"
+        variant="outlined"
+      >
+        Add
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(ListItemSecondaryAction))>
+  </WithStyles(ForwardRef(ListItem))>
+</Fragment>
+`;
+
+exports[`Product Renders without errors with populated state 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))>
+    <WithStyles(ForwardRef(ListItemText))>
+      <WithStyles(ForwardRef(Typography))
+        color="textPrimary"
+        variant="body1"
+      >
+        Soup
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(ListItemText))>
+    <WithStyles(ForwardRef(ListItemSecondaryAction))>
+      <WithStyles(ForwardRef(Button))
+        aria-label="add"
+        color="primary"
+        onClick={[Function]}
+        size="small"
+        variant="outlined"
+      >
+        Add
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(ListItemSecondaryAction))>
+  </WithStyles(ForwardRef(ListItem))>
+</Fragment>
+`;

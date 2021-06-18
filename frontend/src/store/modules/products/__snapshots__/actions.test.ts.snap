@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products actions GET ALL failure action 1`] = `
+Object {
+  "type": "GET_ALL_FAILURE",
+}
+`;
+
+exports[`Products actions GET ALL success action 1`] = `
+Object {
+  "type": "GET_ALL_SUCCESS",
+}
+`;
+
+exports[`Products actions Get ALL request action 1`] = `
+Object {
+  "type": "GET_ALL_REQUEST",
+}
+`;
+
+exports[`Products actions GetAll action 1`] = `
+Object {
+  "payload": Array [
+    Object {
+      "cost": 186,
+      "customerPrice": 199,
+      "id": 1,
+      "name": "Soup",
+    },
+    Object {
+      "cost": 21,
+      "customerPrice": 87,
+      "id": 2,
+      "name": "Bread",
+    },
+    Object {
+      "cost": 234,
+      "customerPrice": 275,
+      "id": 3,
+      "name": "Cheese",
+    },
+    Object {
+      "cost": 61,
+      "customerPrice": 67,
+      "id": 4,
+      "name": "Milk",
+    },
+  ],
+  "type": "GET_ALL",
+}
+`;
+
+exports[`Products actions GetSingle action 1`] = `
+Object {
+  "payload": Object {
+    "cost": 186,
+    "customerPrice": 199,
+    "id": 1,
+    "name": "Soup",
+  },
+  "type": "GET_SINGLE",
+}
+`;
